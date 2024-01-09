@@ -1,0 +1,20 @@
+@import "variables";
+
+nav {
+  line-height: 50px;
+  background: $gold;
+  text-align: center;
+  .active {
+    color: $white;
+    padding: 5px;
+  }
+  a {
+    margin: 15px;
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "variables";
+
+button {
+  padding: 10px 15px;
+  background: none;
+  border: 1px solid $lihghtgrey;
+  &:hover {
+    background: $lihghtgrey;
+  }
+}
